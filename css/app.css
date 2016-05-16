@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+/*the navigation menu styling*/
+
+.navbar-list {
+    width: 100%;
+    height: 80px;
+    background-color: blanchedalmond;
+    font-family: 'Aclonica', sans-serif;
+}
+.navbar-list ul {
+    text-decoration: none;
+    float: left;
+    margin-top: 5%;
+}
+.navbar-list li {
+    display: inline-block;
+}
+.navbar-list li a:hover {
+    color: brown;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+/*the navigation menu styling*/
