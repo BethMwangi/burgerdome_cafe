@@ -85,3 +85,13 @@ img {
     /*    position: absolute;*/
     /*    z-index: 1;*/
 }
+
+/********the row with menu list , creating a
+slider to showcase the variety ************
+*************/
+.menu-list{
+ width: 100%;
+    height: 500px;
+    background-color:whitesmoke;
+
+}
