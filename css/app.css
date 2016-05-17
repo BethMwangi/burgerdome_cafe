@@ -108,22 +108,23 @@ slider to showcase the variety ************
     background-color: bisque;
 }
 form {
+    width: 50%;
     height: 400px;
     float: left;
+    padding-left: 5%;
 }
 .header-form {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 5%;
 }
 input,
 label {
     display: block;
-    padding-left: 5px;
+    padding-left: 4%;
 }
 form p {
-    margin-left: 5px;
+    margin-left: 5%;
 }
 form label {
     color: black;
@@ -134,12 +135,12 @@ textarea {
     border: 1px solid saddlebrown;
     outline: 0;
     font: 'Roboto Condensed', sans-serif;
-    width: 100px;
+    width: 250%;
     background: snow;
     margin-left: 5px;
 }
 textarea {
-    width: 200px;
+    width: 250%;
     height: 100px;
     line-height: 150%;
 }
@@ -171,11 +172,17 @@ input {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
+.terms {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .8em;
+    text-decoration-color: saddlebrown;
+}
 
 /* Box shadow effect */
 
 .map {
-    width: 300px;
+    width: 50%;
     height: 500px;
     float: right;
 }
