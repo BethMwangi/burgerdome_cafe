@@ -67,12 +67,11 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
 h3 {
     font-family: 'Aclonica', sans-serif;
     color: aliceblue;
-  padding-top: 4%;
+    padding-top: 4%;
     font-size: 5em;
     /*
     position: absolute;
@@ -89,9 +88,16 @@ img {
 /********the row with menu list , creating a
 slider to showcase the variety ************
 *************/
-.menu-list{
- width: 100%;
-    height: 500px;
-    background-color:whitesmoke;
 
+.menu-list {
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+/*the footer styling
+*/
+
+.footer {
+    width: 100%;
 }
