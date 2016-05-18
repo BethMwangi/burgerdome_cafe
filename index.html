@@ -13,6 +13,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400italic' rel='stylesheet' type='text/css'>
 
     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
 
 </head>
 
@@ -55,48 +57,65 @@
             <div class="large-10 medium-10 columns">
 
                 <!--start the slider -->
-                <div id='ninja-slider'>
+                <ul class="cd-items cd-container">
+                    <li class="cd-item">
+                        <img src="img/ginger_garlic_chicken_wings_9s3ms.jpg" alt="Item Preview">
+                        <a href="#0" class="cd-trigger">Quick View</a>
+                    </li>
+                    <!-- cd-item -->
 
-                    <div class="slider-inner">
-                        <ul>
-                            <li>
-                                <a class="ns-img" href="img/1.jpg"></a>
-                            </li>
-                            <li>
-                                <a class="ns-img" href="img/2.jpg"></a>
-                            </li>
-                            <li>
-                                <a class="ns-img" href="img/3.jpg"></a>
-                            </li>
+                    <li class="cd-item">
+                        <img src="img/4791207-9790062099-Pizza1.jpg" alt="Item Preview">
+                        <a href="#0" class="cd-trigger">Quick View</a>
+                    </li>
+                    <!-- cd-item -->
+
+                    <li class="cd-item">
+                        <img src="img/Ice_cream_sundae-484x363-top.jpg" alt="Item Preview">
+                        <a href="#0" class="cd-trigger">Quick View</a>
+                    </li>
+                    <!-- cd-item -->
+                </ul>
+                <div class="cd-quick-view">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="img/ginger_garlic_chicken_wings_9s3ms.jpg" alt="Product 1"></li>
+                            <li><img src="img/4791207-9790062099-Pizza1.jpg" alt="Product 2"></li>
+                            <li><img src="img/Ice_cream_sundae-484x363-top.jpg" alt="Product 3"></li>
                         </ul>
-                        <div class="fs-icon" title="Expand/Close"></div>
+                        <!-- cd-slider -->
+
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul>
+                        <!-- cd-slider-navigation -->
                     </div>
-                    <div id="thumbnail-slider">
-                        <div class="inner">
-                            <ul>
-                                <li>
-                                    <a class="thumb" href="img/1.jpg"></a>
-                                    <span>0</span>
-                                </li>
-                                <li>
-                                    <a class="thumb" href="img/2.jpg"></a>
-                                    <span>1</span>
-                                </li>
-                                <li>
-                                    <a class="thumb" href="img/3.jpg"></a>
-                                    <span>2</span>
-                                </li>
-                            </ul>
-                        </div>
+                    <!-- cd-slider-wrapper -->
+                    <div class="cd-item-info">
+                        <h2>Produt Title</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+
+                        <ul class="cd-item-action">
+                            <li>
+                                <button class="add-to-cart">Add to cart</button>
+                            </li>
+                            <li><a href="#0">Learn more</a></li>
+                        </ul>
+                        <!-- cd-item-action -->
                     </div>
+                    <!-- cd-item-info -->
+                    <a href="#0" class="cd-close">Close</a>
                 </div>
+
+
+                <!-- cd-quick-view -->
+
+
+                <div class="large-1 medium-1 columns"></div>
             </div>
         </div>
-
-        <div class="large-1 medium-1 columns"></div>
-
         <!--        placing the footer items, order from and map-->
-
         <div class="row footer">
             <div class="large-6 columns order-form">
                 <form>
@@ -115,7 +134,7 @@
                     </p>
 
                     <p class="order">
-                        <label for="order">Order Number andDetails:</label>
+                        <label for="order">Order Number and Details:</label>
                         <textarea name="order"></textarea>
 
                     </p>
@@ -142,7 +161,10 @@
         </div>
         <!--        placing the footer items, order from and map-->
     </div>
-
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Resource jQuery -->
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
